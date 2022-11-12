@@ -1,5 +1,5 @@
 .MMM-MonthlyCalendar .wrapper {
-  width: 100%;
+  width: 80%;
   table-layout: fixed;
 }
 
@@ -15,6 +15,10 @@
   height: 120px;
   text-align: center;
   vertical-align: top;
+  background-color: rgba(192, 192, 192, 0.1);
+  border: 1px solid rgba(192, 192, 192, 0.2);
+  border-radius: 8px;
+  padding: 5px;
 }
 
 .MMM-MonthlyCalendar .today {
@@ -45,4 +49,3 @@
 .MMM-MonthlyCalendar .past-date {
   filter: brightness(75%);
 }
-
